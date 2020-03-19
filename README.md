@@ -20,8 +20,8 @@ var GoongGeocoder = require('@goongmaps/goong-geocoder');
 ```
 ### Using with CDN
 ```js
-<script src='https://cdn.jsdelivr.net/npm/@goongmaps/goong-geocoder@1.0.3/dist/goong-geocoder.min.js'></script>
-<link href="https://cdn.jsdelivr.net/npm/@goongmaps/goong-geocoder@1.0.3/dist/goong-geocoder.css" rel="stylesheet" type="text/css"/>
+<script src='https://cdn.jsdelivr.net/npm/@goongmaps/goong-geocoder/dist/goong-geocoder.min.js'></script>
+<link href="https://cdn.jsdelivr.net/npm/@goongmaps/goong-geocoder/dist/goong-geocoder.css" rel="stylesheet" type="text/css"/>
 ```
 ###  Using without a Map
 It is possible to use the plugin without it being placed as a control on a goong-js map. 
