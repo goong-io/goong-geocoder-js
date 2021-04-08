@@ -1,6 +1,6 @@
 {
   "name": "@goongmaps/goong-geocoder",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "A geocoder control for Goong JS",
   "main": "lib/index.js",
   "unpkg": "dist/goong-geocoder.min.js",
