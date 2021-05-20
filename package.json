@@ -1,6 +1,6 @@
 {
   "name": "@goongmaps/goong-geocoder",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A geocoder control for Goong JS",
   "main": "lib/index.js",
   "unpkg": "dist/goong-geocoder.min.js",
@@ -47,7 +47,7 @@
     "uglify-js": "^2.8.29"
   },
   "dependencies": {
-    "@goongmaps/goong-sdk": "^1.0.0",
+    "@goongmaps/goong-sdk": ">=1.0.4",
     "lodash.debounce": "^4.0.6",
     "nanoid": "^2.0.1",
     "suggestions": "^1.6.0",

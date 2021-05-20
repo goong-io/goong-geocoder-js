@@ -987,10 +987,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@goongmaps/goong-sdk@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@goongmaps/goong-sdk/-/goong-sdk-1.0.0.tgz#f723e235905f9f499cd356971ed6198bc6f94d8a"
-  integrity sha512-Ub0/+Rnp9o6VTD0grD8Kj1YOx2Tpgz7m6hQ6Xty0cSo1zGVKN5KOH3PjjfcOncTynKmua1g9y/LVrH9nPKaT5w==
+"@goongmaps/goong-sdk@>=1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@goongmaps/goong-sdk/-/goong-sdk-1.0.4.tgz#54be5457d4406302f5fc415647b7421228f874f9"
+  integrity sha512-pgEuTzNEceTB2c1QznbyPCZZlQY1bvhds9YyGPlobEbSN8jKWMHWhem62Rnk+/RwIzTBhiqARd33P4VOhboDCw==
   dependencies:
     "@mapbox/fusspot" "^0.4.0"
     eventemitter3 "^4.0.0"
