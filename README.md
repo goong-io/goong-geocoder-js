@@ -1,11 +1,8 @@
 #Goong Geocoder
 ---
 
-A geocoder control for [goong-js](https://docs.goong.io/js/guide) using the [Goong Geocoding API](https://docs.goong.io/rest/guide#place).
+A geocoder control for [goong-js](https://docs.goong.io/docs/api) using the [Goong Places API](https://docs.goong.io/docs/rest/place/).
 
-### Usage
-
-https://blog.goong.io/2020/02/04/huong-dan-su-dung-goong-sdk-tren-javascript/
 
 **If you are supporting older browsers, you will need a Promise polyfill.**
 [es6-promise](https://github.com/stefanpenner/es6-promise) is a good one, if you're uncertain.
@@ -31,8 +28,3 @@ It is possible to use the plugin without it being placed as a control on a goong
 #### API Documentation
 
 See [API.md](https://github.com/goong-io/goong-geocoder-js/blob/master/API.md) for complete reference.
-
-#### Examples
-
-https://blog.goong.io/2020/02/04/huong-dan-su-dung-goong-sdk-tren-javascript/
-
