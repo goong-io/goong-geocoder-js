@@ -48,7 +48,7 @@
 
 ## GoongGeocoder
 
-A geocoder component using the [Goong Geocoding API][44]
+A geocoder component using the [Goong Places API][44]
 
 ### Parameters
 
@@ -71,8 +71,8 @@ A geocoder component using the [Goong Geocoding API][44]
     -   `options.limit` **[Number][50]** Maximum number of results to show. (optional, default `5`)
     -   `options.radius` **[Number][50]** Distance by kilometers around search location (optional, default `3000`)
     -   `options.marker` **([Boolean][51] \| [Object][45])** If `true`, a [Marker][49] will be added to the map at the location of the user-selected result using a default set of Marker options.  If the value is an object, the marker will be constructed using these options. If `false`, no marker will be added to the map. Requires that `options.goongjs` also be set. (optional, default `true`)
-    -   `options.render` **[Function][52]?** A function that specifies how the results should be rendered in the dropdown menu. This function should accepts a single [Predictions][44] object as input and return a string. Any HTML in the returned string will be rendered.
-    -   `options.getItemValue` **[Function][52]?** A function that specifies how the selected result should be rendered in the search bar. This function should accept a single [Place Detail][53] object as input and return a string. HTML tags in the output string will not be rendered. Defaults to `(item) => item.formatted_address`.
+    -   `options.render` **[Function][52]?** A function that specifies how the results should be rendered in the dropdown menu. This function should accepts a single [Predictions][53] object as input and return a string. Any HTML in the returned string will be rendered.
+    -   `options.getItemValue` **[Function][52]?** A function that specifies how the selected result should be rendered in the search bar. This function should accept a single [Place Detail][54] object as input and return a string. HTML tags in the output string will not be rendered. Defaults to `(item) => item.formatted_address`.
 
 ### Examples
 
@@ -81,7 +81,7 @@ var geocoder = new GoongGeocoder({ accessToken: goongjs.accessToken });
 map.addControl(geocoder);
 ```
 
-Returns **[GoongGeocoder][54]** `this`
+Returns **[GoongGeocoder][55]** `this`
 
 ### addTo
 
@@ -110,7 +110,7 @@ Clear and then focus the input.
 
 #### Parameters
 
--   `ev` **[Event][55]?** the event that triggered the clear, if available
+-   `ev` **[Event][56]?** the event that triggered the clear, if available
 
 ### query
 
@@ -120,7 +120,7 @@ Set & query the input
 
 -   `searchInput` **[string][46]** location name or other search input
 
-Returns **[GoongGeocoder][54]** this
+Returns **[GoongGeocoder][55]** this
 
 ### setInput
 
@@ -130,7 +130,7 @@ Set input
 
 -   `searchInput` **[string][46]** location name or other search input
 
-Returns **[GoongGeocoder][54]** this
+Returns **[GoongGeocoder][55]** this
 
 ### getInput
 
@@ -146,7 +146,7 @@ Set proximity
 
 -   `proximity` **[Object][45]** The new `options.proximity` value. This is a geographical point given as an object with `latitude` and `longitude` properties.
 
-Returns **[GoongGeocoder][54]** this
+Returns **[GoongGeocoder][55]** this
 
 ### getProximity
 
@@ -160,9 +160,9 @@ Set the render function used in the results dropdown
 
 #### Parameters
 
--   `fn` **[Function][52]** The function to use as a render function. This function accepts a single [Predictions][56] object as input and returns a string.
+-   `fn` **[Function][52]** The function to use as a render function. This function accepts a single [Predictions][57] object as input and returns a string.
 
-Returns **[GoongGeocoder][54]** this
+Returns **[GoongGeocoder][55]** this
 
 ### getRenderFunction
 
@@ -184,7 +184,7 @@ Set the zoom level
 
 -   `zoom` **[Number][50]** The zoom level that the map should animate to
 
-Returns **[GoongGeocoder][54]** this
+Returns **[GoongGeocoder][55]** this
 
 ### getFlyTo
 
@@ -214,7 +214,7 @@ Set the value of the input element's placeholder
 
 -   `placeholder` **[String][46]** the text to use as the input element's placeholder
 
-Returns **[GoongGeocoder][54]** this
+Returns **[GoongGeocoder][55]** this
 
 ### getMinLength
 
@@ -230,7 +230,7 @@ Set the minimum number of characters typed to trigger results used by the plugin
 
 -   `minLength` **[Number][50]** the minimum length in characters
 
-Returns **[GoongGeocoder][54]** this
+Returns **[GoongGeocoder][55]** this
 
 ### getLimit
 
@@ -246,7 +246,7 @@ Set the limit value for the number of results to display used by the plugin
 
 -   `limit` **[Number][50]** the number of search results to return
 
-Returns **[GoongGeocoder][54]** 
+Returns **[GoongGeocoder][55]** 
 
 ### getRadius
 
@@ -262,7 +262,7 @@ Set the limit value for the number of results to display used by the plugin
 
 -   `radius` **[Number][50]** the number of search results to return
 
-Returns **[GoongGeocoder][54]** 
+Returns **[GoongGeocoder][55]** 
 
 ### setOrigin
 
@@ -272,7 +272,7 @@ Set the geocoding endpoint used by the plugin.
 
 -   `origin` **[Function][52]** A function which accepts an HTTPS URL to specify the endpoint to query results from.
 
-Returns **[GoongGeocoder][54]** this
+Returns **[GoongGeocoder][55]** this
 
 ### getOrigin
 
@@ -293,7 +293,7 @@ Subscribe to events that happen within the plugin.
     -   **error** `{ error } Error as string`
 -   `fn` **[Function][52]** function that's called when the event is emitted.
 
-Returns **[GoongGeocoder][54]** this;
+Returns **[GoongGeocoder][55]** this;
 
 ### off
 
@@ -304,7 +304,7 @@ Remove an event
 -   `type` **[String][46]** Event name.
 -   `fn` **[Function][52]** Function that should unsubscribe to the event emitted.
 
-Returns **[GoongGeocoder][54]** this
+Returns **[GoongGeocoder][55]** this
 
 [1]: #goonggeocoder
 
@@ -392,7 +392,7 @@ Returns **[GoongGeocoder][54]** this
 
 [43]: #parameters-15
 
-[44]: https://docs.goong.io/rest/guide#place
+[44]: https://docs.goong.io/docs/rest/place/
 
 [45]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object
 
@@ -400,9 +400,9 @@ Returns **[GoongGeocoder][54]** this
 
 [47]: https://account.goong.io
 
-[48]: https://docs.goong.io/js/guide
+[48]: https://docs.goong.io/docs/api
 
-[49]: https://docs.goong.io/js/guide#add-custom-icons-with-markers
+[49]: https://docs.goong.io/docs/example/custom-marker-icons/
 
 [50]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number
 
@@ -410,10 +410,12 @@ Returns **[GoongGeocoder][54]** this
 
 [52]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function
 
-[53]: https://docs.goong.io/rest/guide#get-point-detail-by-id
+[53]: https://docs.goong.io/docs/rest/place/#places-search-by-keyword-with-autocomplete
 
-[54]: #goonggeocoder
+[54]: https://docs.goong.io/docs/rest/place/#get-place-detail-by-id
 
-[55]: https://developer.mozilla.org/docs/Web/API/Event
+[55]: #goonggeocoder
 
-[56]: https://docs.goong.io/rest/guide#get-points-by-keyword
+[56]: https://developer.mozilla.org/docs/Web/API/Event
+
+[57]: https://docs.goong.io/rest/guide#get-points-by-keyword
