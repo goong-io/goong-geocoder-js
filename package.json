@@ -1,6 +1,6 @@
 {
   "name": "@goongmaps/goong-geocoder",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A geocoder control for Goong JS",
   "main": "lib/index.js",
   "unpkg": "dist/goong-geocoder.min.js",
@@ -20,6 +20,9 @@
     "node": ">=6"
   },
   "keywords": [
+    "geocoding",
+    "autocomplete-search",
+    "goong-io",
     "goong",
     "geocoder",
     "osm",
