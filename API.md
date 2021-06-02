@@ -392,7 +392,7 @@ Returns **[GoongGeocoder][55]** this
 
 [43]: #parameters-15
 
-[44]: https://docs.goong.io/docs/rest/place/
+[44]: https://docs.goong.io/rest/place/
 
 [45]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object
 
@@ -400,9 +400,9 @@ Returns **[GoongGeocoder][55]** this
 
 [47]: https://account.goong.io
 
-[48]: https://docs.goong.io/docs/api
+[48]: https://docs.goong.io/javascript
 
-[49]: https://docs.goong.io/docs/example/custom-marker-icons/
+[49]: https://docs.goong.io/example/custom-marker-icons/
 
 [50]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number
 
@@ -410,9 +410,9 @@ Returns **[GoongGeocoder][55]** this
 
 [52]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function
 
-[53]: https://docs.goong.io/docs/rest/place/#places-search-by-keyword-with-autocomplete
+[53]: https://docs.goong.io/rest/place/#places-search-by-keyword-with-autocomplete
 
-[54]: https://docs.goong.io/docs/rest/place/#get-place-detail-by-id
+[54]: https://docs.goong.io/rest/place/#get-place-detail-by-id
 
 [55]: #goonggeocoder
 

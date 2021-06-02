@@ -1,6 +1,6 @@
 # Goong Geocoder
 
-A geocoder control for [goong-js](https://docs.goong.io/docs/javascript) using the [Goong Places API](https://docs.goong.io/docs/rest/place/).
+A geocoder control for [goong-js](https://docs.goong.io/javascript) using the [Goong Places API](https://docs.goong.io/rest/place/).
 
 **If you are supporting older browsers, you will need a Promise polyfill.**
 [es6-promise](https://github.com/stefanpenner/es6-promise) is a good one, if you're uncertain.
@@ -20,10 +20,10 @@ var GoongGeocoder = require('@goongmaps/goong-geocoder');
 ```
 ### Examples
 #### Using within Map
-https://docs.goong.io/docs/example/add-a-geocoder/
+https://docs.goong.io/example/add-a-geocoder/
 #### Using without a Map
 It is possible to use the plugin without it being placed as a control on a goong-js map. 
-https://docs.goong.io/docs/example/goong-geocoder-without-map/
+https://docs.goong.io/example/goong-geocoder-without-map/
 ### Deeper dive
 
 #### API Documentation
