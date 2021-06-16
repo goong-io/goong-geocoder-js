@@ -6,7 +6,9 @@ A geocoder control for [goong-js](https://docs.goong.io/javascript) using the [G
 [es6-promise](https://github.com/stefanpenner/es6-promise) is a good one, if you're uncertain.
 
 ### Usage with a module bundler
-
+```sh
+yarn add @goongmaps/goong-geocoder
+```
 This module exports a single class called GoongGeocoder as its default export,
 so in browserify or webpack, you can require it like:
 
